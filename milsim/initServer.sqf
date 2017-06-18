@@ -1,0 +1,1 @@
+execVM "scripts\milsim_initServer.sqf";

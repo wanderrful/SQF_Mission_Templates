@@ -1,0 +1,1 @@
+execVM "scripts\skirmish_initServer.sqf";

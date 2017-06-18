@@ -1,0 +1,76 @@
+class Params {
+	class LapsToWin {
+		title = "Number of laps needed to complete the race";
+		values[] = {1,2,3,4,5};
+		default = 3;
+	};
+};
+
+class RscTitles {
+	class Default 
+	{
+		idd = -1;
+		fadein = 0;
+		fadeout = 0;
+		duration = 0;
+	};
+	class RaceInfoPanel { 
+		idd = 28210; 
+		duration = 1e+1000; 
+		fadein = 0; fadeout = 0;
+		class controls { 
+			class MainPanel { 
+				idc = 28211; 
+				type = 0; 
+				style = 16; 
+				x = safezoneX + safezoneW - (0.4 + 0.02);  y = safezoneY + safezoneH - (0.25 + 0.2);
+				w = 0.4; h = 0.25; 
+				font = "EtelkaNarrowMediumPro"; 
+				sizeEx = 0.03; 
+				colorBackground[] = {0.2,0.2,0.2,0.5}; 
+				colorText[] = {0.9,0.9,0.9,1}; 
+				text = "(this panel is a work in progress)"; 
+				lineSpacing = 1;
+			}; 
+		}; 
+	}; 
+	class IconImage { 
+		idd = 28220; 
+		duration = 1; 
+		fadein = 1; fadeout = 1;
+		class controls { 
+			class ImagePanel { 
+				idc = -1; 
+				type = 0; 
+				style = 48;  //48 -> image
+				x = safezoneX + safezoneW - (0.4 + 0.02 + 0.15);  y = safezoneY + safezoneH - (0.25 + 0.2);
+				w = 0.07; h = 0.07; 
+				font = "EtelkaNarrowMediumPro"; 
+				sizeEx = 0.03; 
+				colorBackground[] = {1,1,1,1}; 
+				colorText[] = {1,1,1,1}; 
+				text = "\a3\Modules_F_Curator\Data\portraitCountdown_ca.paa"; 
+				lineSpacing = 1;
+			}; 
+		}; 
+	}; 
+};
+
+class cfgNotifications {
+	class RaceStart {
+		title = "RACE START";
+		iconPicture = "\a3\Modules_F_Curator\Data\portraitCountdown_ca.paa";
+		description = "The race has started!";
+	};
+	class RaceEnd {
+		title = "RACE END";
+		iconPicture = "\a3\Modules_F_Curator\Data\portraitCountdown_ca.paa";
+		description = "%1 has finished the race!";
+	};
+	class CheckpointReached {
+		title = "CHECKPOINT!";
+		iconPicture = "\a3\Modules_F_Curator\Data\portraitCountdown_ca.paa";
+		description = "Checkpoint reached!";
+		duration = 2;
+	};
+}

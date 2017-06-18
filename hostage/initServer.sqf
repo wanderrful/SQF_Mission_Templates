@@ -1,0 +1,1 @@
+execVM "scripts\hostage_initServer.sqf";
