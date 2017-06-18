@@ -1,0 +1,1 @@
+execVM "scripts\demolish_initServer.sqf";

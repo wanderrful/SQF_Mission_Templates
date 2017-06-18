@@ -1,0 +1,1 @@
+execVM "scripts\tvt_initServer.sqf";

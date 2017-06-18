@@ -1,0 +1,45 @@
+class cfgNotifications {
+	class MissionSuccess {
+		title = "Mission Success";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIconDone_ca.paa";
+		description = "Objective completed!";
+		color[] = {1,1,1,1};
+		colorIconPicture[] = {0,1,0,0.8};
+	};
+	class MissionFail {
+		title = "Mission Failure";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIconFailed_ca.paa";
+		description = "Your team was wiped out!";
+		color[] = {1,1,1,1};
+		colorIconPicture[] = {1,0,0,0.8};
+	};
+	class MissionFailHostageKilled {
+		title = "Mission Failure";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIconFailed_ca.paa";
+		description = "A hostage was killed!";
+		color[] = {1,1,1,1};
+		colorIconPicture[] = {1,0,0,0.8};
+	};
+};
+
+class cfgSounds
+{
+	class MissionSuccessObjectiveCompleted
+	{
+		name = "MissionSuccessObjectiveCompleted";
+		sound[] = {"sounds\mission-success-objective-completed.ogg", db, 1.0};
+		titles[] = {0, ""};
+	};
+	class MissionFailureYourTeamWasWipedOut
+	{
+		name = "MissionFailureYourTeamWasWipedOut";
+		sound[] = {"sounds\mission-failure-your-team-was-wiped-out.ogg", db, 1.0};
+		titles[] = {0, ""};
+	};
+	class MissionFailureAHostageWasKilled
+	{
+		name = "MissionFailureAHostageWasKilled";
+		sound[] = {"sounds\mission-failure-a-hostage-was-killed.ogg", db, 1.0};
+		titles[] = {0, ""};
+	};
+};

@@ -1,0 +1,1 @@
+_this execVM "scripts\tvt_initPlayerServer.sqf";

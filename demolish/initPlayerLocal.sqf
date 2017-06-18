@@ -1,0 +1,1 @@
+_this execVM "scripts\demolish_initPlayerLocal.sqf";

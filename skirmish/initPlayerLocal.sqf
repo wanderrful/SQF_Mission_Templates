@@ -1,0 +1,1 @@
+_this execVM "scripts\skirmish_initPlayerLocal.sqf";

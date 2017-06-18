@@ -1,0 +1,1 @@
+_this execVM "scripts\hostage_initPlayerServer.sqf";

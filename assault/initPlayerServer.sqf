@@ -1,0 +1,1 @@
+_this execVM "scripts\assault_initPlayerServer.sqf";

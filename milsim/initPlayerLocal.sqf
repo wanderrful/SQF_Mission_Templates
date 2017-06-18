@@ -1,0 +1,1 @@
+_this execVM "scripts\milsim_initPlayerLocal.sqf";
