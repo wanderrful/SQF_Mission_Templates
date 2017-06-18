@@ -14,7 +14,7 @@ IFS='+' #because of the spaces in the folder pathnames, i need to change this!
 
 
 
-MissionFolder='/cygdrive/d/docs/arma 3 - Other Profiles/sixtyfour/missions/_fuckfuckgames'
+MissionFolder='/cygdrive/d/docs/arma 3 - Other Profiles/sixtyfour/missions/'
 MasterFolder='/cygdrive/d/docs/arma\ 3\ -\ Other\ Profiles/sixtyfour/_library/templates'
 
 
